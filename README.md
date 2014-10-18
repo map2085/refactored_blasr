@@ -1,6 +1,6 @@
 To pull this project from git hub to your local system:
 
-    $ git clone git@github.com:ylipacbio/refactored_blasr_II.git --recursive
+    $ git clone git@github.com:PacificBiosciences/refactored_blasr.git --recursive
 
 To sync your code with the latest git code base:
 
@@ -9,6 +9,9 @@ To sync your code with the latest git code base:
 
 To specify HDF5 headers and lib on your system, please edit git_blasr_common.mk
 
+To Make 'blasr' only:
+
+    $ make blasr
 
 To compile all tools, including blasr, pls2fasta, loadPusles, sawriter:
 
@@ -17,10 +20,6 @@ To compile all tools, including blasr, pls2fasta, loadPusles, sawriter:
 To clean all compiled tools and lib:
 
     $ make clean
-
-To Make 'blasr' only:
-
-    $ make blasr
 
 To clean blasr and compiled lib:
 
