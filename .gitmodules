@@ -1,0 +1,6 @@
+[submodule "tools"]
+	path = tools
+	url = git://github.com/PacificBiosciences/blasr_tools.git
+[submodule "libcpp"]
+	path = libcpp
+	url = git://github.com/PacificBiosciences/blasr_libcpp.git
